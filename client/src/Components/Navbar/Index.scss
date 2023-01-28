@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+    top:-10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    nav{
+       
+       
+        width: 100%;
+        height: 80px;
+        background-color: white;
+      
+      
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            padding: 30px;
+            padding-left: 0;
+            display: flex;
+            align-items: center;
+           
+        }
+        .mid{
+            border-top:5px solid #f50000;
+            height:100%;
+            width:100%;
+            display: flex;
+                align-items: center;
+                margin-left:-30px;
+            
+            ul{
+                display: flex;
+                align-items: center;
+                .link{
+                    list-style: none;
+                    line-height: 21px;
+                    font-weight: 700;
+                    font-size: 14px;
+                       &:hover{
+                        color:#ff6600;      
+                         border-bottom:3px solid #ff6600;
+                       }
+                    text-decoration: none;
+                    span{
+                        width: 20px;
+                        position: absolute;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        top: 27px;
+                        left: 29.3%;
+                        height: 20px;
+                        background-color: green;
+                        color: white;
+                        border-radius: 50%;
+                    }
+                    color: black;
+                }
+                li{
+                    list-style: none;
+                    margin-left: 30px;
+                    line-height: 21px;
+                    font-weight: 700;
+                    font-size: 14px;
+                   
+                }
+            }
+        }
+        .right{
+           
+            display: flex;
+            height: 100%;
+            
+            background-color: #ff6600;
+            align-items: center;
+            width:260px;
+            color:white;
+
+            img{
+                font-size: 14px;
+                line-height: 21px;
+                font-weight: 400;
+                width:30px;
+                height: 30px;
+            }
+            span{
+                line-height: 27px;
+                font-weight: 500;
+                font-size: 18px;
+                color: white;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+.icons{
+    float:right;
+    margin-left:800px;
+    display:flex;
+   height:70%;
+    color:#b2b2b2;  
+    gap:5px;
+list-style: none;}
